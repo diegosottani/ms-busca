@@ -62,7 +62,7 @@ function App() {
           {results.map((result) => (
             <div
               key={result.id}
-              className="bg-white shadow-md rounded-lg p-4 transform hover:scale-105 transition-transform w-[400px]"
+              className="bg-white shadow-md rounded-lg p-4 transform hover:scale-105 transition-transform w-[360px]"
             >
               <img
                 src={result.imagem}
