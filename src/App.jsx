@@ -58,11 +58,11 @@ function App() {
       </form>
 
       {results.length > 0 && (
-        <div className="mt-8 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-8 gap-8 flex flex-1 flex-row flex-wrap justify-center">
           {results.map((result) => (
             <div
               key={result.id}
-              className="bg-white shadow-md rounded-lg p-4 transform hover:scale-105 transition-transform"
+              className="bg-white shadow-md rounded-lg p-4 transform hover:scale-105 transition-transform w-[400px]"
             >
               <img
                 src={result.imagem}
